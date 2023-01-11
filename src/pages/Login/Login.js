@@ -1,7 +1,8 @@
+import './login.css';
 const Login = () => {
-    return (
+    return(
         <div className="login">
-            <h1>Login</h1>
+            Login
         </div>
     );
 };
