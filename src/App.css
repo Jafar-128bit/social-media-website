@@ -1,0 +1,26 @@
+*, html, #root {
+    /* ============Colors================= */
+    --dark-mode-color: #363646;
+    --light-mode-color: #F2F2F2;
+    --text-color-light: #363646;
+    --text-color-dark: #F2F2F2;
+    --button-backgroundColor-light: #d8d8d8;
+    /* ============Font Weight================= */
+    --text-normal: 500;
+    --text-semi-bold: 600;
+    --text-bold: 700;
+    /* ============Font Size================= */
+    --text-size-tiny: 0.5rem;
+    --text-size-small: 0.75rem;
+    --text-size-big: 1rem;
+    --text-size-large: 1.5rem;
+    --text-size-title: 2.5rem;
+    /* ============Shadow================= */
+    --shadow:0 0 14px -2px rgba(0,0,0,0.75);
+}
+
+.shadow {
+    box-shadow: var(--shadow);
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+}
